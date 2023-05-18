@@ -37,13 +37,13 @@ const Navbar = () => {
                 {toggleMenu && (
                 <div className="gpt3__navbar-menu_container scale-up-center">
                     <div className="gpt3__navbar-menu_container-links">
-                    <Menu />
-                    <div className="gpt3_navbar-menu_container-links-sign">
+                        <Menu />
+                    </div>
+                    <div className="gpt3__navbar-menu_container-links-sign">
                         <p>Sign in</p>
                         <button type="button">Sign Up</button>
                     </div>
                 </div>
-            </div>
                 )}
             </div>
         </div>

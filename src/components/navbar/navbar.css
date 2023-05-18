@@ -56,10 +56,10 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
-    border-radius: 5px;
-    border: 0;
+    border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .gpt3__navbar-menu {
@@ -83,12 +83,12 @@
     background: var(--color-footer);
     padding: 2rem;
     position: absolute;
-    top: 40px;
     right: 0;
+    top: 40px;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    box-shadow: 0 0 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
 }
 
 .gpt3__navbar-menu_container p {
